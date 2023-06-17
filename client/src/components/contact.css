@@ -1,0 +1,55 @@
+.contact_container{
+    min-height: 70vh;
+    
+    padding: 10rem ;
+    padding-top: 2%;
+    border: solid var(--orange);
+}
+
+.contact_container form{
+    max-width: 70rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact_container form .inputBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact_container form textarea,
+.contact_container form .inputBox input{
+    width: 100%;
+    padding:0.5rem;
+    font-size: 1.6rem;
+    color:var(--text-color-1);
+    margin:.7rem 0;
+    background: powderblue;
+    box-shadow: var(--box-shadow);
+    text-transform: none;
+    border-radius: .5rem;
+}
+
+.contact_container form textarea{
+    height: 10rem;
+    resize: none;
+}
+
+.contact_container form .inputBox input{
+    width: 49%;
+}
+
+@media (max-width:578px){
+
+    html{
+        font-size: 50%;
+    }
+    .contact_container{
+        padding: 5rem ;
+    }
+    .contact_container form .inputBox input{
+        width: 100%;
+    }
+
+}
