@@ -36,7 +36,7 @@ const Contact = () => {
     } else if (mobile === "") {
       toast.error("mobile is require")
     } else {
-      const res = await fetch(https://alam.cyclic.app/contact", {
+      const res = await fetch(http://localhost:6002/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
