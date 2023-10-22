@@ -36,6 +36,7 @@ const Contact = () => {
     } else if (mobile === "") {
       toast.error("mobile is require")
     } else {
+      // while hosting change the url like - https://alam.cyclic.app/register
       const res = await fetch(http://localhost:6002/register", {
         method: "POST",
         headers: {
