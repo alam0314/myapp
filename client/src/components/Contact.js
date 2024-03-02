@@ -36,8 +36,7 @@ const Contact = () => {
     } else if (mobile === "") {
       toast.error("mobile is require")
     } else {
-      // while hosting change the url like - https://alam.cyclic.app/register
-      const res = await fetch(http://localhost:6002/register", {
+      const res = await fetch("http://localhost:6002/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -71,10 +70,10 @@ const Contact = () => {
         <h1 class="heading"> <span>Contact</span> Us </h1>
         <form action="" data-aos="zoom">
           <div class="inputBox">
-              <input type="text" placeholder="First Name" name="fname" data-aos="fade-up" value={inputvalue.fname} onChange={getvalue}/>
-              <input type="text" placeholder="Last Name" name="lname" data-aos="fade-up" value={inputvalue.lname} onChange={getvalue}/>
+              <input type="text" placeholder="first name" name="fname" data-aos="fade-up" value={inputvalue.fname} onChange={getvalue}/>
+              <input type="text" placeholder="last name" name="lname" data-aos="fade-up" value={inputvalue.lname} onChange={getvalue}/>
               <input type="email" placeholder="email" name="email" data-aos="fade-up" value={inputvalue.email}  onChange={getvalue} />
-              <input type="tel" placeholder="mobile" name="mobile" data-aos="fade-up" value={inputvalue.mobile}  onChange={getvalue}/>
+              <input type="number" placeholder="mobile" name="mobile" data-aos="fade-up" value={inputvalue.mobile}  onChange={getvalue}/>
               
           </div>
           
