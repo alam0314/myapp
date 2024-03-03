@@ -39,7 +39,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 body{
-    background:var(--bg-color-2);
+    background:linear-gradient(rgb(188, 233, 236),rgb(237, 189, 189), rgb(180, 201, 237));
 }
 
 body.active{

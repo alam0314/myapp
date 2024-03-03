@@ -13,7 +13,7 @@ const Header = () => {
       <div className={`nav-toggle ${isOpen && "open"}`} onClick={() => setIsOpen(!isOpen)}>
         <div class="bar"><i class="fas fa-list"></i></div>
       </div>
-      <span className="navlogo"><i class="frontlogo" ><img src="./images/alamMask.png" alt="logo"></img></i> It's me</span>
+      <span className="navlogo"><i class="frontlogo" ><img src="./images/alamMask.png" alt="logo"></img></i> Alam</span>
     </div>
   );
 };

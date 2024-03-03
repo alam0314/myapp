@@ -1,6 +1,7 @@
 import React from 'react'
 import "./About.css"
 
+
 const About = () => {
   return (
     <>
@@ -10,23 +11,33 @@ const About = () => {
         <div className="containermain">
           <div  style={{ width: 500,marginTop:15 }}>
             <h2><b>Alam Ansari</b></h2>
-            <p style={{lineHeight: 2}}>I am a software engineer graduate, with a passion for coding and problem-solving. I have better 
-understanding of C, CPP, PHP, Python, Data Structures & Algorithms, OOPS and Web 
-Development. I am an eager learner, constantly striving to improve my skills and stay ahead of 
-the latest trends in software development. I am also a team player and enjoy collaborating on 
-projects.</p>
+            <p style={{lineHeight: 2}}>Detail-oriented and results-driven Associate Software Engineer with a proven track record in software development,
+                  testing, and debugging. Proficient in multiple programming languages and frameworks, including C++, PHP, Laravel
+                  and Vue. Experienced in collaborating with cross-functional teams to deliver high-quality software products that meet
+                  and exceed customer expectations. Dedicated to continuous learning and innovation in the ever-evolving field of
+                  software engineering.
+            </p>
              <br/>
             <h2><b>Skills</b></h2>
-            <p><b>C | C++ | PHP | Python</b></p>
-            <p><b>Bulma | JQuery | Laravel | Vue.js</b></p>
+            <p><b> C++ | PHP | Java | Python</b></p>
+            <p><b>Bulma | jQuery | Laravel | Vue.js | Nuxt.js</b></p>
             <p><b>HTML | CSS | JavaScript</b></p>
             <p><b>MySQL | NoSQL</b></p>
             <p><b>MongoDB | Express.js | React.js | Node.js</b></p>
             <br/>
             <h2><b>Work Experience</b></h2>
-            <p><b>Software Developer Intern</b></p>
-            <p>Webreinvent Technologies Pvt. Ltd.</p>
-            <p>July 2023 – Present</p>
+            <ul>
+            <li>
+              <p><b>Associate Software Engineer</b></p>
+              <p>Accenture | Gurugram, Haryana</p>
+              <p>January 2024 – Present</p>
+              </li>
+              <li>
+              <p><b>SDET</b></p>
+              <p>Webreinvent Technologies Pvt. Ltd. | Dwarka, New Delhi</p>
+              <p>July 2023 – January 2024</p>
+              </li>
+            </ul>
             <br/>
             <h2><b>Additional Information</b></h2>
             <p><b>Permanent Address:</b> Sitamarhi Bihar(843302) India.</p>
